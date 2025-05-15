@@ -13,6 +13,9 @@ public class Todo {
     private boolean realizado;
     private int prioridade;
 
+    public Todo(String nome, String descricao, boolean realizado, int prioridade) {
+    }
+
     public Long getId() {
         return id;
     }
